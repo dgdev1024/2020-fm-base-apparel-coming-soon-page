@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="favicon" type="image/png" href="./img/favicon-32x32.png">
-  <title>Base Apparel Coming Soon Page</title>
-</head>
-<body>
-  <main>
-    <header>
-      <img src="./img/logo.svg" alt="Base Apparel" />
-    </header>
-    <picture>
-      <source media="(max-width: 899px)" srcset="./img/hero-mobile.jpg" />
-      <source media="(min-width: 900px)" srcset="./img/hero-desktop.jpg" />
-      <img src="./img/hero-desktop.jpg" alt="We're Coming Soon" />
-    </picture>
-    <section>
-      <h1>
-        We're<br />
-        <strong>
-          Coming<br />
-          Soon
-        </strong>
-      </h1>
-      <p>
-        Hello, fellow shoppers! We're currently building
-        our new fashion store. Add your email below to
-        stay up-to-date with announcements and our
-        launch deals.
-      </p>
-      <form id="email-form">
-        <input 
-          type="text" 
-          id="email-input" 
-          name="email-input"
-          placeholder="Email Address"
-        />
-        <button type="submit">
-          <img src="./img/icon-arrow.svg" />
-        </button>
-      </form>
-      <p id="email-error">Test Error</p>
-    </section>
-  </main>
-  <script src="./js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" />
+    <title>Base Apparel Coming Soon Page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./img/logo.svg" alt="Base Apparel" />
+      </header>
+      <picture>
+        <source media="(max-width: 899px)" srcset="./img/hero-mobile.jpg" />
+        <source media="(min-width: 900px)" srcset="./img/hero-desktop.jpg" />
+        <img src="./img/hero-desktop.jpg" alt="We're Coming Soon" />
+      </picture>
+      <section>
+        <h1>
+          We're<br />
+          <strong>
+            Coming<br />
+            Soon
+          </strong>
+        </h1>
+        <p>
+          Hello, fellow shoppers! We're currently building our new fashion
+          store. Add your email below to stay up-to-date with announcements and
+          our launch deals.
+        </p>
+        <form id="email-form">
+          <input
+            type="text"
+            id="email-input"
+            name="email-input"
+            placeholder="Email Address"
+            aria-label="Email Address"
+          />
+          <button type="submit" aria-label="Subscribe">
+            <img src="./img/icon-arrow.svg" alt="Subscribe" />
+          </button>
+        </form>
+        <p id="email-error">Test Error</p>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
